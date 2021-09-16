@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="./style/style.css">
+  </head>
+
+  <body>
+    <h1 id="title">Encuesta sobre "productos de comida rápida"</h1>
+    <p id="description">
+      Esta encuesta permite conocer las expectativas del mercado a través de las preferencias del consumidor.
+    </p>
+    
+    <form id="survey-form">
+        
+      <label id="name-label">Nombre:</label>
+      <input type="text" name="name" id="name" required placeholder="Primer nombre"><br>
+
+      <label id="email-label">E-Mail:</label>
+      <input type="email" name="email" id="email" required placeholder="Correo electronico"><br>
+
+      <div class="form-group">
+        <label id="number-label" for="number"
+          >Edad:</label
+        >
+        <input
+          type="number"
+          name="age"
+          id="number"
+          min="18"
+          max="80"
+          class="form-control"
+          placeholder="Edad"
+        />
+      </div>
+
+      <div class="form-group">
+      <label id="number-label">¿Cuánto estaría dispuesto a pagar por un plato típico colombiano enlatado?</label>
+      <input type="number" name="number" id="number" min="4000" max="7000" required placeholder="$">
+    </div>
+
+
+      <label id="fast-food-label">¿Consumiría productos de comida rápida envasadas o enlatadas?</label>
+      <select id="dropdown" name="fast-food">
+        <option value="si">Sí</option>
+        <option value="probablemente">Probablemente</option>
+        <option value="es probablemente que no">Es probablemente que no</option>
+        <option value="no">No</option>
+        <option value="no lo se">No lo sé</option>
+      </select><br>
+
+      <label id="fast-food-label">¿Qué le parece el consumo de productos de comida rápida?</label>
+      <select id="dropdown" name="fast-food">
+        <option value="muy bueno">Muy bueno</option>
+        <option value="bueno">Bueno</option>
+        <option value="regular">Regular</option>
+        <option value="malo">Malo</option>
+        <option value="muy malo">Muy malo</option>
+      </select><br>
+
+
+      <div class="form-group">
+          <fieldset>
+        <legend>¿Cuál es el motivo por el que consume o consumiría productos de comida rápida?</legend><br>
+        <label>
+            <input
+              name="cause"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Falta de tiempo por trabajo</label
+          >
+        <label>
+          <input
+            name="cause"
+            value="definitely"
+            type="radio"
+            class="input-radio"
+            checked
+          />Falta de tiempo por estudio</label
+        >
+        <label>
+          <input
+            name="cause"
+            value="maybe"
+            type="radio"
+            class="input-radio"
+          />No le gusta cocinar</label
+        >
+  
+        <label
+          ><input
+            name="cause"
+            value="not-sure"
+            type="radio"
+            class="input-radio"
+          />Por economía</label
+        >
+    </fieldset>
+      </div>
+
+      <div class="form-group">
+        <fieldset> 
+        <legend>¿Por cuál servicio adquiere o ha adquirido productos de comida rápida ?</legend><br>
+        <label
+        ><input
+          name="zone"
+          value="gitter-help-rooms"
+          type="checkbox"
+          class="input-checkbox"
+        />A domicilio</label
+      >
+      <label
+        ><input
+          name="zone"
+          value="videos"
+          type="checkbox"
+          class="input-checkbox"
+        />En locales o restaurantes</label
+      >
+      <label
+        ><input
+          name="zone"
+          value="city-meetups"
+          type="checkbox"
+          class="input-checkbox"
+        />En puestos ambulantes</label
+      >
+    </fieldset>
+      </div>
+
+
+      <div class="form-group">
+        <fieldset>
+        <legend>¿Con qué frecuencia consume productos de comida rápida?</legend><br>
+        <label>
+          <input
+            name="frecuency"
+            value="definitely"
+            type="radio"
+            class="input-radio"
+            checked
+          />Diariamente</label
+        >
+        <label>
+          <input
+            name="frecuency"
+            value="maybe"
+            type="radio"
+            class="input-radio"
+          />Semanal</label
+        >
+  
+        <label
+          ><input
+            name="frecuency"
+            value="not-sure"
+            type="radio"
+            class="input-radio"
+          />Mensual</label
+        >
+        </fieldset>
+        </div>
+        
+     
+  
+
+  
+      <div class="form-group">
+        <fieldset>
+        <legend>Seleccione un(os) producto(s) de comida rápida, envasada o enlatada que serian de su preferencia</legend><br>
+  
+        <label
+          ><input
+            name="prefer"
+            value="front-end-projects"
+            type="checkbox"
+            class="input-checkbox"
+          />Sopa de patacon</label
+        >
+        <label>
+          <input
+            name="prefer"
+            value="back-end-projects"
+            type="checkbox"
+            class="input-checkbox"
+          />Ajiaco santafereño</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="data-visualization"
+            type="checkbox"
+            class="input-checkbox"
+          />Mute santandereano</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="challenges"
+            type="checkbox"
+            class="input-checkbox"
+          />Masamorra paisa</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="open-source-community"
+            type="checkbox"
+            class="input-checkbox"
+          />otros</label
+        >
+        </fieldset>
+      </div>
+
+
+      <div class="form-group">
+        <fieldset>
+        <legend>Recomendaría los productos anteriores a sus amigos</legend><br>
+        <label>
+          <input
+            name="user-recommend"
+            value="definitely"
+            type="radio"
+            class="input-radio"
+            checked
+          />Sí</label
+        >
+        <label>
+          <input
+            name="user-recommend"
+            value="maybe"
+            type="radio"
+            class="input-radio"
+          />No</label
+        >
+        </fieldset>
+    </div>
+
+      <label id="additional-comments-label">Comentarios adicionales:</label>
+      <textarea placeholder="Comentarios adicionales"></textarea><br>
+
+
+      <input type="submit" id="submit">
+    </form>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
