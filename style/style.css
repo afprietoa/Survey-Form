@@ -3,6 +3,9 @@
   --secondary: rgb(171,129,175);
   --tertiary: #37af65;
 }
+p{
+  font-size: 1.25rem;
+}
 body{
   font-family: sans-serif;
   padding-left: 20%;
@@ -11,7 +14,7 @@ body{
 label{
   display: flex;
   align-items: center;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   margin-bottom: 0.5rem;
 
 }
@@ -28,8 +31,7 @@ textarea,
   width: 100%;
   padding-bottom: 20px;
   margin: 0;
-  font-family: inherit;
-  font-size: inherit;
+  font-size: 1.25rem;
 }
 .form-group{
   margin: 0 auto 1.25rem auto;
