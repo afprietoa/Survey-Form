@@ -1,69 +1,61 @@
-body {
-    font-family: sans-serif;
-    padding-left: 20%;
-    padding-right: 20%;
-  }
-  label {
-    display: flex;
-    align-items: center;
-    font-size: 1.125rem;
-    margin-bottom: 0.5rem;
-  }
-  legend{
-    
-    align-items: center;
-    font-size: 1.125rem;
-  }
+:root{
+  --primary: rgba(136,136,206,0.7);
+  --secondary: rgb(171,129,175);
+  --tertiary: #37af65;
+}
+body{
+  font-family: sans-serif;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+label{
+  display: flex;
+  align-items: center;
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
 
+}
+legend{
+  align-items: center;
+  font-size: 1.25rem;
+}
 select,
-textarea, #name, #email, #number {
+textarea,
+.name,
+.email,
+.number{
+  display: block;
+  width: 100%;
+  padding-bottom: 20px;
   margin: 0;
   font-family: inherit;
   font-size: inherit;
-  line-height: inherit;
-  display: block;
-   width: 100%;
-padding-bottom: 20px;
 }
-input {
-  margin: 0;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  display: block;
+.form-group{
+  margin: 0 auto 1.25rem auto;
+  padding:  0.25rem;
 
+  
 }
-
-  .form-group {
-    margin: 0 auto 1.25rem auto;
-    padding: 0.25rem;
-  }
-
-  form {
-
-    background-color: rgba(136, 136, 206, 0.7);
-    padding: 40px 40px 40px 40px;
-  }
-
-  #button-area {
-    float: left;
-    width: 50%;
-    height: 50%;
-  }
-
-  #submit {
-    display: block;
-    width: 100%;
-    padding-bottom: 0.75rem;
-    background-color: #37af65;
-    color: #fff;
-    cursor: pointer;
-  }
-
-  .input-radio,
-.input-checkbox {
+form{
+  background: var(--primary);
+  padding: 40px;
+  box-shadow: 0px -1px 10px 5px var(--secondary);
+}
+.submit{
+  display: block;
+  width: 100%;
+  margin: 0.7rem;
+  padding: 0.8em;
+  font-size: 1.25rem;
+  color: #fff;
+  background: var(--tertiary);
+  cursor: pointer;
+}
+.input-radio,
+.input-checkbox{
   display: inline-block;
-  margin-right: 0.625rem;
+  margin-right: 0.7rem;
   min-height: 1.5rem;
   min-width: 1.5rem;
 }
