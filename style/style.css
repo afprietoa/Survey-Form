@@ -2,7 +2,7 @@
 :root{
   --primary: #6873bA;
   --secondary: rgb(171,129,175);
-  --tertiary: #ec3459;
+  --tertiary: #ed4e6e;
 }
 p{
   font-size: 1.25rem;
@@ -80,7 +80,7 @@ form{
   border-radius: 7px 7px 7px 7px;
 }
 .submit:hover {
-  background: #ed4e6e;
+  background: #ec3459;
 }
 .input-radio,
 .input-checkbox{
