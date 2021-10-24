@@ -43,6 +43,7 @@ textarea,
   padding-bottom: 20px;
   margin: 0;
   font-size: 1.25rem;
+  border-radius: 7px 7px 7px 7px;
 
 }
 .form-group{
@@ -54,7 +55,10 @@ textarea,
 form{
   background: var(--primary);
   padding: 40px;
-  box-shadow: 0px -1px 10px 5px var(--secondary);
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 7px 7px 14px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    7px 7px 14px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         7px 7px 14px 0px rgba(50, 50, 50, 0.75);
 }
 .submit{
   display: block;
@@ -66,6 +70,7 @@ form{
   color: #fff;
   background: var(--tertiary);
   cursor: pointer;
+  border-radius: 7px 7px 7px 7px;
 }
 .submit:hover {
   background: #ed4e6e;
