@@ -1,15 +1,26 @@
 :root{
-  --primary: rgba(136,136,206,0.7);
+  --primary: #2A304E;
   --secondary: rgb(171,129,175);
-  --tertiary: #37af65;
+  --tertiary: #ec3459;
 }
 p{
   font-size: 1.25rem;
+}
+h1,p{ 
+  color: black;
+
+}
+h1{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
   font-family: sans-serif;
   padding-left: 20%;
   padding-right: 20%;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(27,27,50,0.1);
 }
 label{
   display: flex;
@@ -32,6 +43,7 @@ textarea,
   padding-bottom: 20px;
   margin: 0;
   font-size: 1.25rem;
+
 }
 .form-group{
   margin: 0 auto 1.25rem auto;
@@ -50,9 +62,13 @@ form{
   margin: 0.7rem;
   padding: 0.8em;
   font-size: 1.25rem;
+  font-weight: bold;
   color: #fff;
   background: var(--tertiary);
   cursor: pointer;
+}
+.submit:hover {
+  background: #ed4e6e;
 }
 .input-radio,
 .input-checkbox{
