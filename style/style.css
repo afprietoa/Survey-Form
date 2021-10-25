@@ -86,7 +86,10 @@ form{
   border-radius: 7px 7px 7px 7px;
 }
 .submit:hover {
-  background:rgba(216, 22, 22, 0.925);
+  font-size: 1.3rem;
+  background: white;
+  border: 5px solid rgba(216, 22, 22, 0.925);
+  color: rgba(216, 22, 22, 0.925);
 }
 .input-radio,
 .input-checkbox{
