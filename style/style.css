@@ -2,7 +2,7 @@
 :root{
   --primary: #6873bA;
   --secondary: rgb(171,129,175);
-  --tertiary: #ed4e6e;
+  --tertiary: #b7153d;
 }
 p{
   font-size: 1.25rem;
@@ -27,7 +27,7 @@ body{
   padding-right: 20%;
   font-weight: bold;
   color: #ddd;
-  background-color: rgba(27,27,50,0.1);
+  background-color: #ecf0f1;
 }
 label{
   display: flex;
@@ -59,14 +59,20 @@ textarea,
 
   
 }
+
 form{
-  background: var(--primary);
+
+  background: #252827;
+
   padding: 40px;
   border-radius: 10px 10px 10px 10px;
+
   -webkit-box-shadow: 7px 7px 14px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    7px 7px 14px 0px rgba(50, 50, 50, 0.75);
   box-shadow:         7px 7px 14px 0px rgba(50, 50, 50, 0.75);
+  
 }
+
 .submit{
   display: block;
   width: 100%;
@@ -80,7 +86,7 @@ form{
   border-radius: 7px 7px 7px 7px;
 }
 .submit:hover {
-  background: #ec3459;
+  background:rgba(216, 22, 22, 0.925);
 }
 .input-radio,
 .input-checkbox{
