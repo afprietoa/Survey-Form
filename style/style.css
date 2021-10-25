@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 :root{
-  --primary: #6873bA;
-  --secondary: rgb(171,129,175);
+  --primary: #ecf0f1;
+  --secondary: #252827;
   --tertiary: #b7153d;
 }
 p{
@@ -27,7 +27,7 @@ body{
   padding-right: 20%;
   font-weight: bold;
   color: #ddd;
-  background-color: #ecf0f1;
+  background-color: var(--primary);
 }
 label{
   display: flex;
@@ -62,7 +62,7 @@ textarea,
 
 form{
 
-  background: #252827;
+  background: var(--secondary);
 
   padding: 40px;
   border-radius: 10px 10px 10px 10px;
