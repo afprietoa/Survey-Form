@@ -86,10 +86,11 @@ form{
   border-radius: 7px 7px 7px 7px;
 }
 .submit:hover {
-  font-size: 1.3rem;
-  background: white;
-  border: 5px solid rgba(216, 22, 22, 0.925);
-  color: rgba(216, 22, 22, 0.925);
+  font-size: 1.4rem;
+  background: #eee8ea;
+  border: 6px double var(--tertiary);
+  -webkit-text-stroke: 2.2px var(--tertiary);
+  color: wheat;
 }
 .input-radio,
 .input-checkbox{
